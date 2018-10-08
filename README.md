@@ -6,6 +6,9 @@ A lightweight and easy to use Android library that provides many activity transi
 A lightweight, easy-to-use Android library that provides awesome activity transition animations
 
 To download the demo app for this library from Google Playstore so you can see it in action, click here:
+## Screenshots
+<img src="https://github.com/mohammadatif/Animatoo/blob/master/Screen%20Shots/Card.gif" width="190" height="270" />
+<img src="https://github.com/mohammadatif/Animatoo/blob/master/Screen%20Shots/Diagonal.gif" width="190" height="270" />
 
 ## Installation
 
