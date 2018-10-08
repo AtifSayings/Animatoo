@@ -1,7 +1,7 @@
 # Animatoo
 A lightweight and easy to use Android library that provides many activity transition animations
-⋅⋅* min SDK 16 (Android Jellybean 4.1)
-⋅⋅* written in Java
+* min SDK 16 (Android Jellybean 4.1)
+* written in Java
 
 A lightweight, easy-to-use Android library that provides awesome activity transition animations
 
