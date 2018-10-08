@@ -1,10 +1,13 @@
 # Animatoo
-A lightweight and easy to use Android library that provides many activity transition animations.
-min SDK 16 (Android Jellybean 4.1)
-written in Java
-A lightweight, easy-to-use Android library that provides awesome activity transition animations.
+A lightweight and easy to use Android library that provides many activity transition animations
 
-To download the demo app for this library from Google Playstore so you can see it in action, click here
+min SDK 16 (Android Jellybean 4.1)
+
+written in Java
+
+A lightweight, easy-to-use Android library that provides awesome activity transition animations
+
+To download the demo app for this library from Google Playstore so you can see it in action, click here:
 
 ## Installation
 
@@ -27,21 +30,37 @@ dependencies {
 ## Usage
 Animatoo has 15 different activity transition animations:
 
-split
-shrink
-card
-in and out
-swipe left
-swipe right
-slide up
-slide down
-slide left
-slide right
-zoom
-fade
-spin
-diagonal
-windmill
+in and out.
+
+swipe left.
+
+swipe right.
+
+split.
+
+shrink.
+
+card.
+
+zoom.
+
+fade.
+
+spin.
+
+diagonal.
+
+windmill.
+
+slide up.
+
+slide down.
+
+slide left.
+
+slide right.
+
+
 Using Animatoo is extremely simple, A single short line of code following startActivity(...) is all that's needed, for example:
 ```java
 startActivity(new Intent(context, TargetActivity.class));
