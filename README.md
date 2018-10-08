@@ -30,20 +30,29 @@ dependencies {
 ## Usage
 Animatoo has 15 different activity transition animations:
 
-in and out.
-swipe left.
-swipe right.
-split.
-shrink.
-card.
+1. in and out.
+2. swipe left.
+3. swipe right.
+4. split.
+5. shrink.
+6. card.
+
 zoom.
+
 fade.
+
 spin.
+
 diagonal.
+
 windmill.
+
 slide up.
+
 slide down.
+
 slide left.
+
 slide right.
 
 Using Animatoo is extremely simple, A single short line of code following startActivity(...) is all that's needed, for example:
