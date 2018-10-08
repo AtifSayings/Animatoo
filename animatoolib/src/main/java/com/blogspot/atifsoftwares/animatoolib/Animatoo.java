@@ -5,22 +5,6 @@ import android.content.Context;
 
 public class Animatoo {
 
-    public static void animateSlideLeft(Context context) {
-        ((Activity) context).overridePendingTransition(R.anim.animate_slide_left_enter, R.anim.animate_slide_left_exit);
-    }
-
-    public static void animateSlideRight(Context context) {
-        ((Activity) context).overridePendingTransition(R.anim.animate_slide_in_left, R.anim.animate_slide_out_right);
-    }
-
-    public static void animateSlideDown(Context context) {
-        ((Activity) context).overridePendingTransition(R.anim.animate_slide_down_enter, R.anim.animate_slide_down_exit);
-    }
-
-    public static void animateSlideUp(Context context) {
-        ((Activity) context).overridePendingTransition(R.anim.animate_slide_up_enter, R.anim.animate_slide_up_exit);
-    }
-
     public static void animateZoom(Context context) {
         ((Activity) context).overridePendingTransition(R.anim.animate_zoom_enter, R.anim.animate_zoom_exit);
     }
@@ -63,5 +47,21 @@ public class Animatoo {
 
     public static void animateSwipeRight(Context context) {
         ((Activity) context).overridePendingTransition(R.anim.animate_swipe_right_enter, R.anim.animate_swipe_right_exit);
+    }
+
+    public static void animateSlideLeft(Context context) {
+        ((Activity) context).overridePendingTransition(R.anim.animate_slide_left_enter, R.anim.animate_slide_left_exit);
+    }
+
+    public static void animateSlideRight(Context context) {
+        ((Activity) context).overridePendingTransition(R.anim.animate_slide_in_left, R.anim.animate_slide_out_right);
+    }
+
+    public static void animateSlideDown(Context context) {
+        ((Activity) context).overridePendingTransition(R.anim.animate_slide_down_enter, R.anim.animate_slide_down_exit);
+    }
+
+    public static void animateSlideUp(Context context) {
+        ((Activity) context).overridePendingTransition(R.anim.animate_slide_up_enter, R.anim.animate_slide_up_exit);
     }
 }
