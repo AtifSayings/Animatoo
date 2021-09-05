@@ -8,7 +8,7 @@
     android:padding="20dp"
     tools:context=".MainActivity">
 
-    <com.google.android.material.textview.MaterialTextView
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sample Implementation Of Animatoo"
@@ -23,92 +23,92 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateCard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Animate Card" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateDiagonal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate Diagonal" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateFade"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate Fade" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateInAndOut"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate InAndOut" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateShrink"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate Shrink" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateSlideDown"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate SlideDown" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateSlideLeft"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate SlideLeft" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateSlideRight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate SlideRight" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateSlideUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate SlideUp" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateSpin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate Spin" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateSplit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate Split" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateSwipeLeft"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate SwipeLeft" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateSwipeRight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate SwipeRight" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateWindmill"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animate Windmill" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/animateZoom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
