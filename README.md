@@ -24,6 +24,30 @@ allprojects {
 		}
 	}
 ```
+
+OR. In Newer Versions of Android Studio  settings.gradle file:
+
+```java
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        jcenter()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        jcenter()
+    }
+}
+```
+
 Add the dependency to your module build.gradle:
 ```java
 dependencies {
