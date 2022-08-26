@@ -5,6 +5,7 @@ import android.os.Bundle
 import com.blogspot.atifsoftwares.animatoolib.Animatoo
 
 class SecondActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
@@ -14,4 +15,5 @@ class SecondActivity : AppCompatActivity() {
         super.onBackPressed()
         Animatoo.animateSpin(this)
     }
+
 }
