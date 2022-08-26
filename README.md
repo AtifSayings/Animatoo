@@ -12,6 +12,9 @@ https://youtu.be/M67KH9clHHc
 <img src="https://github.com/mohammadatif/Animatoo/blob/master/Screen%20Shots/Card.gif" width="190" height="270" />
 <img src="https://github.com/mohammadatif/Animatoo/blob/master/Screen%20Shots/Diagonal.gif" width="190" height="270" />
 
+[![](https://jitpack.io/v/AtifSayings/Animatoo.svg)](https://jitpack.io/#AtifSayings/Animatoo)
+
+
 ## Installation
 
 Add this into your root build.gradle file:
@@ -51,7 +54,7 @@ dependencyResolutionManagement {
 Add the dependency to your module build.gradle:
 ```java
 dependencies {
-	        implementation 'com.github.mohammadatif:Animatoo:master'
+	        implementation 'com.github.mohammadatif:Animatoo:1.0.1'
 }
 ```
 ## Usage
