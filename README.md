@@ -53,7 +53,7 @@ dependencyResolutionManagement {
 Add the dependency to your module build.gradle:
 ```java
 dependencies {
-	        implementation 'com.github.mohammadatif:Animatoo:1.0.1'
+	implementation 'com.github.AtifSayings:Animatoo:1.0.1'
 }
 ```
 ## Usage
