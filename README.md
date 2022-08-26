@@ -1,5 +1,5 @@
-# Animatoo
-[![](https://jitpack.io/v/AtifSayings/Animatoo.svg)](https://jitpack.io/#AtifSayings/Animatoo)
+# Animatoo[![](https://jitpack.io/v/AtifSayings/Animatoo.svg)](https://jitpack.io/#AtifSayings/Animatoo)
+
 Bored with same animation for activity transition? Animatoo is a lightweight and easy to use Android library that provides many activity transition animations
 * min SDK 16 (Android Jellybean 4.1)
 * written in Java
