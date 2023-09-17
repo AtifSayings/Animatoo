@@ -50,6 +50,29 @@ dependencyResolutionManagement {
 }
 ```
 
+OR. In Newer Versions of Android Studio with Kotlin DSL settings.gradle.kts file:
+
+```java
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { setUrl("https://jitpack.io") }
+        jcenter()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { setUrl("https://jitpack.io") }
+        jcenter()
+    }
+}
+```
+
 Add the dependency to your module build.gradle:
 ```java
 dependencies {
