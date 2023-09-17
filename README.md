@@ -73,10 +73,16 @@ dependencyResolutionManagement {
 }
 ```
 
-Add the dependency to your module build.gradle:
+Add the dependency to your module build.gradle (Groovy):
 ```java
 dependencies {
 	implementation 'com.github.AtifSayings:Animatoo:1.0.1'
+}
+```
+Add the dependency to your module build.gradle (Kotlin):
+```java
+dependencies {
+	implementation("com.github.AtifSayings:Animatoo:1.0.1")
 }
 ```
 ## Usage
