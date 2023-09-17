@@ -79,7 +79,7 @@ dependencies {
 	implementation 'com.github.AtifSayings:Animatoo:1.0.1'
 }
 ```
-Add the dependency to your module build.gradle (Kotlin):
+OR. Add the dependency to your module build.gradle (Kotlin):
 ```java
 dependencies {
 	implementation("com.github.AtifSayings:Animatoo:1.0.1")
